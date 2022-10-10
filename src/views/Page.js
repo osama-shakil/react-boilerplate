@@ -5,21 +5,21 @@ const page = () => {
   return (
     <Container fluid style={{ backgroundColor: "#48cae4" }}>
       <Container>
-        <Row className=" pt-5">
-
+        <Row className=" ">
+                      <div className="content1-page1">
 
           <Col lg="3" md="6" sm="6" xs="12">
             <Row className="p-1">
-              <Col>
+              <Col  lg='4'>
                 
                   
                   <img className="float-right" src={check_img}></img>
                 
               </Col>
-              <Col>
+              <Col  >
                 <b className="d-flex Gratis-text-main-view">
                   
-                    Gratis en vrijblijvend vergelijken
+                    Gratis en <br></br> vrijblijvend<br></br> vergelijken
                 </b>
               </Col>
             </Row>
@@ -28,13 +28,13 @@ const page = () => {
 
           <Col lg="3" md="6" sm="6" xs="12">
           <Row className="p-1">
-              <Col>
+              <Col lg='4'>
                 
                   
                   <img className="float-right" src={check_img}></img>
                 
               </Col>
-              <Col>
+              <Col  >
               <b className="d-flex Gratis-text-main-view">
                 
                   BESPAAR 30%<br></br>in slecht 2 minuten
@@ -47,13 +47,13 @@ const page = () => {
 
 
           <Row className="p-1">
-              <Col>
+              <Col lg='4'>
                 
                   
                   <img className="float-right" src={check_img}></img>
                 
               </Col>
-              <Col>
+              <Col >
                 <b className="d-flex Gratis-text-main-view">
               
                   Traprenovatie  al vanaf € 2.500
@@ -71,15 +71,15 @@ const page = () => {
 
 
           <Row className="p-1">
-              <Col>
+              <Col lg='4'>
                 
                   
                   <img className="float-right" src={check_img}></img>
                 
               </Col>
-              <Col>
+              <Col >
                 <b className="d-flex Gratis-text-main-view">
-                Binnen 1 werkdag geplaatst
+                Binnen<br></br> 1 werkdag <br></br>geplaatst
                 </b>
               </Col>
             </Row>
@@ -89,9 +89,10 @@ const page = () => {
             
             
           </Col>
+          </div>
         </Row>
       </Container>
-      <br/>
+      
     </Container>
   );
 };

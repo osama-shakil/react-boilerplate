@@ -7,7 +7,9 @@ import pvc from "../../src/assets/img/PVC.png";
 const traprenovatiesection = () => {
   return (
     <Container fluid className="trap_container">
-      <Container>
+      <Container  >
+
+<div className="content2-p1">        
         <h3 className="traprenovatiesection">
           <b>TRAPRENOVATIE OFFERTES VERGELIJKEN</b>
         </h3>
@@ -101,9 +103,10 @@ const traprenovatiesection = () => {
         </Row>
         </div>
         <button  className="img-fluid btn-card ">Gratis offertes vergelijken</button>
-        
+        </div>
       </Container>
-      <br/>
+     
+      
     </Container>
   );
 };

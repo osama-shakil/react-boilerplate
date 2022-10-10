@@ -235,3 +235,14 @@ display: none;
     }  
    
 }
+.content1-page1{
+
+    margin-left: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+}
+.content2-p1{
+padding: 5rem;
+
+}
