@@ -1,9 +1,11 @@
+import Header from '../components/Header/Header'
+
 const Main = props => {
 	return (
 		<>
-			<header>Main Header</header>
+			<Header></Header>
 			{props.children}
-			<footer>Main Footer</footer>
+			{/* <footer>Main Footer</footer> */}
 		</>
 	);
 };

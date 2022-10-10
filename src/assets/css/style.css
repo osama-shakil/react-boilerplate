@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 header, footer{
     height: 100px;
     font-size:26px;
@@ -6,4 +9,229 @@ header, footer{
     justify-content: center;
     background-color: #212121;
     color: #ffffff;
+}
+body{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.headerImg{
+
+    background-image:url('../img/bg_img.png') ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center ;
+    /* height: 40rem; */
+
+}
+
+.Gratis-txt{
+    /* font-size: 30px;
+    letter-spacing:-1px; */
+    color: #f1f0ec;
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    filter: drop-shadow(2.264px 1.968px 0.5px rgba(1,1,1,0.75));
+    
+    line-height: 2.2rem;
+    
+
+}
+
+.Isjouw-txt{
+   
+font-size: 13px;
+color: #f1f0ec;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+text-align:justify;
+
+margin-top: -1rem;
+
+}
+.Zo-text{
+    font-size: 17px;
+    letter-spacing:0.6px;
+    line-height: 28px;
+    color: #f1f0ec;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: left;
+  
+
+}
+
+.promotion_logo{
+
+   float: right;
+   z-index: -1;
+   margin-top: -8rem;
+   margin-right: 0px;
+   height: 10rem;
+   
+}
+.Bespaar-text{
+  
+    font-size: 21px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-left: 2.5rem;
+
+
+}
+.Vraag-text{
+
+font-size: 24px;
+/* line-height: 2rem; */
+color: #03223f;
+font-weight: 700;
+letter-spacing: 1px;
+font-family: "Open Sans ", sans-serif;
+text-align: left;
+margin-top: -9px;;
+
+
+}
+hr{
+background-color: #eeeeee;
+}
+.adj-col-promotion-image{
+
+    margin-top: 19rem;
+    margin-left: 6rem;
+    
+}
+
+
+@media (max-width:989.8px) {
+    .adj-col-promotion-image{
+
+        margin-top: 20rem;
+        margin-left: 2.5rem;
+        
+        
+    }
+}
+.img_hand_1{
+
+    float: right;
+    height: 4rem;
+}
+.card{
+    background-color: #03223f;
+     border-radius: 0px;
+      padding:20px;
+     
+    
+}
+
+.input-text-heading{
+
+    font-size:12px ;
+    font-weight: 400px;
+}
+.door-text{
+    font-size:10px ;
+    font-weight: 300px;
+    text-align: left;
+    
+    
+}
+.inputs-adj{
+margin-top: -1rem;
+}
+.btn-card{
+    font-family: "Open Sans bold", sans-serif;
+    font-size: 20px;
+    font-weight: 800px;
+   border-color: #f1f0ec;
+   background-color:#fe5129 ;
+  justify-content: center;
+  border-width: 1px;
+  color: #eeeeee;
+  border-radius:0px ;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+
+}
+
+@media (max-width:441.8px) {
+    .btn-card{
+        font-family: "Open Sans ", sans-serif;
+        font-size: 12px;
+        font-weight: 600px;
+       border-color: #f1f0ec;
+       background-color:#fe5129 ;
+      justify-content: center;
+      border-width: 1px;
+      color: #eeeeee;
+      border-radius:0px ;
+      /* padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 2rem;
+      padding-right: 2rem; */
+    
+    
+    } 
+}
+
+
+.inside-text-prop{
+    color: #fe5129;
+font-Weight: 600px;
+    
+}
+.Gratis-text-main-view{
+
+    font-size: 14px;
+    color: #03223f;
+    text-align: left;
+    margin-left: -13px;
+    font-weight: 800px;
+}
+.checkbox{
+
+    justify-content: center;
+    display: flex;
+    padding-top: 2rem;
+   
+    
+}
+.traprenovatiesection{
+
+    color:#03223f;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+.trap-hr{
+
+    background-color: #fe5129;
+    width: 5rem;
+    text-align: center;
+    height: 3px;
+}
+.trap_container{
+
+    background-color: #f1f0ec ;
+    color:#03223f;
+    text-align: center;
+   
+}
+.trap-voor-text{
+     
+    font-weight:800px;
+}
+@media (max-width:989.8px) {
+    .col-gap-header{
+display: none;
+
+
+    }  
+   
 }

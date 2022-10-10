@@ -1,12 +1,15 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import Content from './Page'
+import Traprenovatiesection from "./Traprenovatie_section";
 
-const AdminView = props => {
-	return (
-		<>
-			<h2>Main View</h2>
-			<Link to='/auth'>Auth View</Link>
-		</>
-	);
+const AdminView = (props) => {
+  return (
+    <>
+      <Content/>
+	  <Traprenovatiesection/>
+    </>
+  );
 };
 
 export default AdminView;
