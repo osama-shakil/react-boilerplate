@@ -31,14 +31,14 @@ const traprenovatiesection = () => {
 
         <div className="p-4">
         <Row className="text-justify">
-          <Col>
-            <Row>
+          <Col lg='6' md='12' sm='12'>
+            <Row className="p-1">
               <Col lg="2.5">
                 <img src={laminaat}></img>
               </Col>
-              <Col>
+              <Col >
                 <h4>LAMINAAT</h4>
-                <p>
+                <p className="">
                   Dit materiaal wordt vaak gebruikt voor het renoveren van de
                   trap. Het voordeel van laminaat is dat het goedkoper is dan de
                   onderstaande materialen. Echter gaat het wel minder lang mee
@@ -47,8 +47,8 @@ const traprenovatiesection = () => {
               </Col>
             </Row>
           </Col>
-          <Col className="pl-4">
-            <Row>
+          <Col   lg='6' md='12' sm='12'>
+            <Row className="p-1">
               <Col lg="2.5">
                 <img src={laminaat}></img>
               </Col>
@@ -69,8 +69,8 @@ const traprenovatiesection = () => {
         <br />
 
         <Row className="text-justify">
-          <Col>
-            <Row>
+          <Col  lg='6' md='12' sm='12'>
+            <Row className="p-1">
               <Col lg="2.5">
                 <img src={hout}></img>
               </Col>
@@ -85,8 +85,8 @@ const traprenovatiesection = () => {
               </Col>
             </Row>
           </Col>
-          <Col className="pl-4">
-            <Row>
+          <Col  lg='6' md='12' sm='12'>
+            <Row className="p-1">
               <Col lg="2.5">
                 <img src={pvc}></img>
               </Col>
